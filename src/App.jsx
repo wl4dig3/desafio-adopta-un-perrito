@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <Header headerTitle='Adopta una mascota' />
+      <Header  headerTitle={cardStr.HEADER} />
       <Cards img={cardStr.bartolo.img} title={cardStr.bartolo.titulo} description={cardStr.bartolo.description} btntitle={cardStr.bartolo.btntitle} />
       <Cards img={cardStr.messi.img} title={cardStr.messi.titulo} description={cardStr.messi.description} btntitle={cardStr.messi.btntitle} />
       <Cards img={cardStr.gohan.img} title={cardStr.gohan.titulo} description={cardStr.gohan.description} btntitle={cardStr.gohan.btntitle} />
