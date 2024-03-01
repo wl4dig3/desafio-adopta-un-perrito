@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 function Header({headerTitle="header title"}) {
   return (
-    <div>{headerTitle}</div>
+    <h1 className='header-title'>{headerTitle}</h1>
   )
 }
 
